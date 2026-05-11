@@ -820,7 +820,6 @@
 @endsection
 
 @push('scripts')
-<script src="{{ asset('assets/vendor/libs/sweetalert2/sweetalert2.js') }}"></script>
 <script>
 $(document).ready(function() {
     $('#modalCreate').on('shown.bs.modal', function() {
@@ -2371,6 +2370,7 @@ function deleteData(id, nama) {
         html: `Yakin ingin menghapus data UMKM <strong>"${nama}"</strong>?<br><small class="text-muted">Data pemilik, legalitas, dan media sosial juga akan terhapus.</small>`,
         icon: 'warning',
         showCancelButton: true,
+        showDenyButton: false,
         confirmButtonColor: '#d33',
         cancelButtonColor: '#6c757d',
         confirmButtonText: 'Ya, Hapus!',

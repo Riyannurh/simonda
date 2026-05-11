@@ -360,18 +360,18 @@
                         <i class="ri-file-pdf-line"></i>
                     </div>
                     <div class="doc-info">
-                        <h4>Dokumentasi SIMONDA</h4>
+                        <h4>Pedoman Teknis SIMONDA</h4>
                         <p>Panduan lengkap penggunaan sistem SIMONDA untuk semua pengguna — Admin, Pendamping, dan Kepala Bagian</p>
-                        <span class="doc-badge">PDF &bull; Segera Tersedia</span>
+                        <span class="doc-badge">PDF</span>
                     </div>
-                    <button class="doc-btn disabled" disabled title="Segera tersedia">
+                    <a href="{{ asset('assets/DOKUMEN/PEDOMAN TEKNIS.pdf') }}" download class="doc-btn" title="Unduh PDF" style="cursor:pointer; color:var(--primary); border-color:var(--primary); text-decoration:none;">
                         <i class="ri-download-line"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
             <p class="docs-note">
                 <i class="ri-information-line me-1"></i>
-                Dokumentasi sedang dalam proses penyusunan. Hubungi admin untuk informasi lebih lanjut.
+                Hubungi admin untuk informasi lebih lanjut.
             </p>
         </div>
     </section>
